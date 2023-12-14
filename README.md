@@ -30,6 +30,7 @@ Switching power supply unit that produces +5v and -12v: https://www.digikey.com/
 
 | Part               | Source      | Part #             |
 | ------------------ | ----------- | ------------------ |
+| Power Supply Unit  | DigiKey     | 454-1459-ND        |
 | INPUT CONN KIT     | DigiKey     | 454-1366-ND        |
 | 4POS CONN RCPT     | DigiKey     | WM2002-ND          |
 | 3POS CONN RCPT     | DigiKey     | 900-0022013037-ND  |
@@ -68,7 +69,7 @@ The following is the schematic for the power conversion board that converts -12v
 
 The LED Register Display board consists of 32 LEDs (8 for the high address, 8 for the low address, 8 for the address data and 8 for the output data).
 
-* Split and splice a 40-pin connector to create a 41-pin connector.
+* Split and splice a 40-pin connector to create a 41-pin connector
 * Split 40-position dual right-angle connectors to create 8-position dual connectors
 
 | Part       | Spec        | Source    | Part #                   |
@@ -84,4 +85,5 @@ The LED Register Display board consists of 32 LEDs (8 for the high address, 8 fo
 | 16POS CONN | 2x8 2.54mm  | Amazon    | B015K47OIQ               |
 | 41POS CONN | Male R-A    | Amazon    | B01461DQ6S               |
 
-IMAGE TBD
+<img width="653" alt="LED Register Display Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/4e50ebfc-eacb-4052-83f5-30fafeab7729">
+
