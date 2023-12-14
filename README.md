@@ -6,9 +6,9 @@ This repository contains schematics, PCBs, instructions and parts lists for the 
 
 The original Mark-8 did not have a backplane so this will be an improvement since boards can be removed if required.
 
-* The backplane has ten 41-pin connectors for the bus. Split and splice 2.54mm connectors to make up a 41-pin connector.
-* Only stuff the rear power connectors since the front ones conflict with boards above.
-* The 2x8 holes between bus connectors can be stuffed with a 16-position headers but they will require some bending since the holes are not standard header footprints.
+* The backplane has ten 41-pin connectors for the bus; split and splice 2.54mm connectors to make up a 41-pin connector
+* Only stuff the rear power connectors since the front ones conflict with boards above
+* The 2x8 holes between bus connectors can be stuffed with a 16-position headers but they will require some bending since the holes are not standard header footprints
 
 ### Parts
 
@@ -66,4 +66,22 @@ The following is the schematic for the power conversion board that converts -12v
 
 ## LED Register Display Board
 
-TBD
+The LED Register Display board consists of 32 LEDs (8 for the high address, 8 for the low address, 8 for the address data and 8 for the output data).
+
+* Split and splice a 40-pin connector to create a 41-pin connector.
+* Split 40-position dual right-angle connectors to create 8-position dual connectors
+
+| Part       | Spec        | Source    | Part #                   |
+| ---------- | ----------- | --------- | ------------------------ |
+| C1         | 100 uF      | DigiKey   | 1189-1300-ND             |
+| C2-C4      | 0.1 uF      | DigiKey   | 478-11712-ND             |
+| D1-D32     | 5mm 643nm   | Jameco    | 333973                   |
+| R1-R32     | 220 ohm     | Jameco    | 690700                   |
+| IC1-IC6    | 7404        | Jameco    | 49040                    |
+| IC7-IC8    | 7475        | Jameco    | 50577                    |
+| IC9        | 7442        | Jameco    | 50374                    |
+| IC10       | 7402        | Jameco    | 49015                    |
+| 16POS CONN | 2x8 2.54mm  | Amazon    | B015K47OIQ               |
+| 41POS CONN | Male R-A    | Amazon    | B01461DQ6S               |
+
+IMAGE TBD
