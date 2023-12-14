@@ -26,6 +26,9 @@ The following is the schematic for the power conversion board that converts -12v
 
 <img width="653" alt="Screenshot 2023-12-14 at 12 53 37 PM" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/9ec51d69-70be-4264-95fc-43de139e07fd">
 
+![IMG_3756](https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/cf440c30-65d1-444c-910f-ee6a4f296a58)
+
+
 #### Parts
 
 | Part       | Spec        | Source    | Part #                   |
