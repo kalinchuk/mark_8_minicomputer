@@ -67,7 +67,7 @@ The following is the schematic for the power conversion board that converts -12v
 
 ## LED Register Display Board
 
-The LED Register Display board consists of 32 LEDs (8 for the high address, 8 for the low address, 8 for the address data and 8 for the output data).
+The LED Register Display board is used for displaying the address and contents of memory and output ports. It consists of 32 LEDs (8 for the high address, 8 for the low address, 8 for the address data and 8 for the output data).
 
 * Split and splice a 40-pin connector to create a 41-pin connector
 * Split 40-position dual right-angle connectors to create 8-position dual connectors
@@ -87,3 +87,21 @@ The LED Register Display board consists of 32 LEDs (8 for the high address, 8 fo
 
 <img width="653" alt="LED Register Display Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/4e50ebfc-eacb-4052-83f5-30fafeab7729">
 
+## Output Board
+
+The output board is used for outputting data from the computer. It's a fairly simple board consisting of mostly ICs.
+
+* Split and splice a 40-pin connector to create a 41-pin connector
+* Split 40-position dual right-angle connectors to create 8-position dual connectors
+
+| Part       | Spec        | Source    | Part #                   |
+| ---------- | ----------- | --------- | ------------------------ |
+| C1-C3      | 0.1 uF      | DigiKey   | 478-11712-ND             |
+| IC1-IC8    | 7475        | Jameco    | 50577                    |
+| IC9-IC10   | 7404        | Jameco    | 49040                    |
+| IC11       | 7402        | Jameco    | 49015                    |
+| IC12       | 7442        | Jameco    | 50374                    |
+| 16POS CONN | 2x8 2.54mm  | Amazon    | B015K47OIQ               |
+| 41POS CONN | Male R-A    | Amazon    | B01461DQ6S               |
+
+<img width="653" alt="Output Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/fb3a4e2b-db8f-4eed-837a-d1a25c6fb121">
