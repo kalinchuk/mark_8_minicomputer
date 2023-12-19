@@ -10,7 +10,7 @@ The original Mark-8 did not have a backplane so this will be an improvement sinc
 * Only stuff the rear power connectors since the front ones conflict with boards above
 * The 2x8 holes between bus connectors can be stuffed with a 16-position headers but they will require some bending since the holes are not standard header footprints
 
-### Parts
+### Parts List
 
 | Part                       | Source      | Part #                   |
 | -------------------------- | ----------- | ------------------------ |
@@ -20,13 +20,15 @@ The original Mark-8 did not have a backplane so this will be an improvement sinc
 | 2x8 HEADER                 | Amazon      | B07DJZVQMV               |
 | 8 BLOCK JUMPER             | DigiKey     | 732-13625-ND             |
 
+### Image
+
 <img width="653" alt="Backplane" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/bba0ee8f-0920-436e-a3dd-f76492770627">
 
 ## Power Supply
 
 Switching power supply unit that produces +5v and -12v: https://www.digikey.com/en/products/detail/artesyn-embedded-power/LPT102-M/2203686
 
-### Parts
+### Parts List
 
 | Part               | Source      | Part #             |
 | ------------------ | ----------- | ------------------ |
@@ -49,8 +51,7 @@ The following is the schematic for the power conversion board that converts -12v
 
 <img width="653" alt="Power Supply & Power Conversion Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/cf440c30-65d1-444c-910f-ee6a4f296a58">
 
-
-#### Parts
+#### Parts List
 
 | Part       | Spec        | Source    | Part #                   |
 | ---------- | ----------- | --------- | ------------------------ |
@@ -72,6 +73,8 @@ The LED Register Display board is used for displaying the address and contents o
 * Split and splice a 40-pin connector to create a 41-pin connector
 * Split 40-position dual right-angle connectors to create 8-position dual connectors
 
+### Parts List
+
 | Part       | Spec        | Source    | Part #                   |
 | ---------- | ----------- | --------- | ------------------------ |
 | C1         | 100 uF      | DigiKey   | 1189-1300-ND             |
@@ -85,6 +88,8 @@ The LED Register Display board is used for displaying the address and contents o
 | 16POS CONN | 2x8 2.54mm  | Amazon    | B015K47OIQ               |
 | 41POS CONN | Male R-A    | Amazon    | B01461DQ6S               |
 
+### Image
+
 <img width="653" alt="LED Register Display Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/4e50ebfc-eacb-4052-83f5-30fafeab7729">
 
 ## Output Board
@@ -93,6 +98,8 @@ The output board is used for outputting data from the computer. It's a fairly si
 
 * Split and splice a 40-pin connector to create a 41-pin connector
 * Split 40-position dual right-angle connectors to create 8-position dual connectors
+
+### Parts List
 
 | Part       | Spec        | Source    | Part #                   |
 | ---------- | ----------- | --------- | ------------------------ |
@@ -104,6 +111,8 @@ The output board is used for outputting data from the computer. It's a fairly si
 | 16POS CONN | 2x8 2.54mm  | Amazon    | B015K47OIQ               |
 | 41POS CONN | Male R-A    | Amazon    | B01461DQ6S               |
 
+### Image
+
 <img width="653" alt="Output Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/fb3a4e2b-db8f-4eed-837a-d1a25c6fb121">
 
 ## Memory Board
@@ -113,6 +122,14 @@ The memory board accepts 32-1101 SRAM ICs but requires a minimum of 8 of them. M
 * Install a minimum of 8-1101 SRAM ICs (starting from IC1-IC8)
 * Split and splice a 40-pin connector to create a 41-pin connector
 * Split 40-position dual right-angle connectors to create a 8-position & 2-position dual connectors
+
+### Jumpers
+
+For the first and only memory board, install all of the resisters, A jumpers, 0 jumper and block codes as illustrated in the following image. Refer to original instructions if adding additional memory boards.
+
+<img width="300" alt="Memory Board Jumpers" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/3cdcb5ae-1115-4da0-9939-27507b1c660b">
+
+### Parts List
 
 | Part       | Spec        | Source    | Part #                   |
 | ---------- | ----------- | --------- | ------------------------ |
@@ -124,5 +141,7 @@ The memory board accepts 32-1101 SRAM ICs but requires a minimum of 8 of them. M
 | 16POS CONN | 2x8 2.54mm  | Amazon    | B015K47OIQ               |
 | 41POS CONN | Male R-A    | Amazon    | B01461DQ6S               |
 
-<img width="653" alt="Memory Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/86e96dc7-b9d4-4f8e-a7bb-eadd0fbdb906">
 
+### Image
+
+<img width="653" alt="Memory Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/86e96dc7-b9d4-4f8e-a7bb-eadd0fbdb906](https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/afc4532d-db33-49b4-89ec-b6dd159ebfdb">
