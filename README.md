@@ -131,18 +131,48 @@ For the first and only memory board, install all of the resisters, A jumpers, 0 
 
 ### Parts List
 
-| Part       | Spec        | Source    | Part #                   |
-| ---------- | ----------- | --------- | ------------------------ |
-| C1-C3      | 0.1 uF      | DigiKey   | 478-11712-ND             |
-| IC1-IC32   | 1101(A)     | eBay      | N/A                      |
-| IC33       | 7442        | Jameco    | 50374                    |
-| IC34       | 7400        | Jameco    | 48979                    |
-| 4POS CONN  | 2x2 2.54mm  | Amazon    | B015K47OIQ               |
-| 16POS CONN | 2x8 2.54mm  | Amazon    | B015K47OIQ               |
-| 41POS CONN | Male R-A    | Amazon    | B01461DQ6S               |
-
+| Part            | Spec        | Source    | Part #                   |
+| --------------- | ----------- | --------- | ------------------------ |
+| C1-C3           | 0.1 uF      | DigiKey   | 478-11712-ND             |
+| R1-R11, R20-R21 | 1K Ohm      | Jameco    | 690865                   |
+| R12-R19         | 10K Ohm     | Jameco    | 691104                   |
+| IC1-IC32        | 1101(A)     | eBay      | N/A                      |
+| IC33            | 7442        | Jameco    | 50374                    |
+| IC34            | 7400        | Jameco    | 48979                    |
+| 4POS CONN       | 2x2 2.54mm  | Amazon    | B015K47OIQ               |
+| 16POS CONN      | 2x8 2.54mm  | Amazon    | B015K47OIQ               |
+| 41POS CONN      | Male R-A    | Amazon    | B01461DQ6S               |
 
 ### Image
 
 <img width="653" alt="Memory Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/603d6b28-f445-4845-97a1-8694dda697e9">
 
+## Address Latch Board
+
+The address latch board latches addresses specified by the end-user which are then relayed to the memory board.
+
+* The board that we're using here seems to have a mistake in the top connectors placement so, when installing the top connectors, pull them out slightly so that mating connectors could fit
+* Split and splice a 40-pin connector to create a 41-pin connector
+* Split 40-position dual right-angle connectors to create a 8-position, 6-position & 5-position dual connectors
+* Install two jumpers required by the board
+
+### Parts List
+
+| Part       | Spec        | Source    | Part #                   |
+| ---------- | ----------- | --------- | ------------------------ |
+| C1-C6      | 0.1 uF      | DigiKey   | 478-11712-ND             |
+| C7         | 680 pF      | DigiKey   | BC1023TR-ND              |
+| R1-R3      | 10K Ohm     | Jameco    | 691104                   |
+| R4         | 22K Ohm     | Jameco    | 691180                   |
+| R5-R16     | 1K Ohm      | Jameco    | 690865                   |
+| IC1-IC2    | 74123       | Jameco    | 49357                    |
+| IC3-IC7    | 7400        | Jameco    | 48979                    |
+| IC8-IC11   | 74193       | Jameco    | 49939                    |
+| 10POS CONN | 2x5 2.54mm  | Amazon    | B015K47OIQ               |
+| 12POS CONN | 2x6 2.54mm  | Amazon    | B015K47OIQ               |
+| 16POS CONN | 2x8 2.54mm  | Amazon    | B015K47OIQ               |
+| 41POS CONN | Male R-A    | Amazon    | B01461DQ6S               |
+
+### Image
+
+<img width="653" alt="Address Latch Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/1ed006fa-e405-4090-8672-74457bb6d690">
