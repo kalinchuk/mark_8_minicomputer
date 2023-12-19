@@ -105,3 +105,24 @@ The output board is used for outputting data from the computer. It's a fairly si
 | 41POS CONN | Male R-A    | Amazon    | B01461DQ6S               |
 
 <img width="653" alt="Output Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/fb3a4e2b-db8f-4eed-837a-d1a25c6fb121">
+
+## Memory Board
+
+The memory board accepts 32-1101 SRAM ICs but requires a minimum of 8 of them. Multiple memory boards can be installed into the Mark-8 computer and linked together.
+
+* Install a minimum of 8-1101 SRAM ICs (starting from IC1-IC8)
+* Split and splice a 40-pin connector to create a 41-pin connector
+* Split 40-position dual right-angle connectors to create a 8-position & 2-position dual connectors
+
+| Part       | Spec        | Source    | Part #                   |
+| ---------- | ----------- | --------- | ------------------------ |
+| C1-C3      | 0.1 uF      | DigiKey   | 478-11712-ND             |
+| IC1-IC32   | 1101(A)     | eBay      | N/A                      |
+| IC33       | 7442        | Jameco    | 50374                    |
+| IC34       | 7400        | Jameco    | 48979                    |
+| 4POS CONN  | 2x2 2.54mm  | Amazon    | B015K47OIQ               |
+| 16POS CONN | 2x8 2.54mm  | Amazon    | B015K47OIQ               |
+| 41POS CONN | Male R-A    | Amazon    | B01461DQ6S               |
+
+<img width="653" alt="Memory Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/86e96dc7-b9d4-4f8e-a7bb-eadd0fbdb906">
+
