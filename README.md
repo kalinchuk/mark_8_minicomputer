@@ -144,4 +144,5 @@ For the first and only memory board, install all of the resisters, A jumpers, 0 
 
 ### Image
 
-<img width="653" alt="Memory Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/86e96dc7-b9d4-4f8e-a7bb-eadd0fbdb906](https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/afc4532d-db33-49b4-89ec-b6dd159ebfdb">
+<img width="653" alt="Memory Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/603d6b28-f445-4845-97a1-8694dda697e9">
+
