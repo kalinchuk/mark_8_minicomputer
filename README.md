@@ -227,13 +227,9 @@ The CPU board contains the 8008 microprocessor and is the "brain" of the compute
 | R4              | 1.8K Ohm      | Jameco    | 690929                   |
 | R5-R8, R17      | 1K Ohm        | Jameco    | 690865                   |
 | R9-R16          | 22K Ohm       | Jameco    | 691180                   |
-| IC1, IC4        | 7400          | Jameco    | 48979                    |
-  IC6-IC7, IC9
-  IC13, IC17
-  IC19        
+| IC1, IC4, IC6-IC7, IC9, IC13, IC17, IC19        | 7400          | Jameco    | 48979                    |       
 | IC2-IC3, IC14   | 7476          | Jameco    | 48039                    |
-| IC5, IC11, IC16 | 7404          | Jameco    | 49040                    |
-  IC20, IC21
+| IC5, IC11, IC16, IC20, IC21 | 7404          | Jameco    | 49040                    |
 | IC8, IC12       | 7474          | Jameco    | 50551                    |
 | IC22-IC23, IC25 | 74L04         | Jameco    | 46316                    |
 | IC10, IC18      | 7410          | Jameco    | 49189                    |
