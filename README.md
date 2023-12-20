@@ -160,7 +160,7 @@ The address latch board latches addresses specified by the end-user which are th
 
 | Part       | Spec        | Source    | Part #                   |
 | ---------- | ----------- | --------- | ------------------------ |
-| C1-C6      | 0.1 uF      | DigiKey   | 478-11712-ND             |
+| C1-C6      | 0.01 uF     | DigiKey   | 399-13905-2-ND           |
 | C7         | 680 pF      | DigiKey   | BC1023TR-ND              |
 | R1-R3      | 10K Ohm     | Jameco    | 691104                   |
 | R4         | 22K Ohm     | Jameco    | 691180                   |
