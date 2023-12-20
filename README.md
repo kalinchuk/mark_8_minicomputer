@@ -204,4 +204,5 @@ The input multiplexer board controls all data flowing into the computer.
 
 ### Image
 
-TODO
+<img width="653" alt="Input Multiplexer Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/c1fa90bb-b4ab-498c-a886-acdfac3ac342">
+
