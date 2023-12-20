@@ -154,7 +154,7 @@ The address latch board latches addresses specified by the end-user which are th
 * The board that we're using here seems to have a mistake in the top connectors placement so, when installing the top connectors, pull them out slightly so that mating connectors could fit
 * Split and splice a 40-pin connector to create a 41-pin connector
 * Split 40-position dual right-angle connectors to create a 8-position, 6-position & 5-position dual connectors
-* Install two jumpers required by the board
+* Install two jumpers required by the board - better to install them early in the process
 
 ### Parts List
 
@@ -183,7 +183,7 @@ The input multiplexer board controls all data flowing into the computer.
 
 * C2 should be 100 uF (instead of 1 uF as the original document states)
 * The 8267 multiplexer was substituted for 8266 due to the inability of finding an 8267
-* Install two jumpers required by the board
+* Install two jumpers required by the board - better to install them early in the process
 * Split and splice a 40-pin connector to create a 41-pin connector
 * Split 40-position dual right-angle connectors to create 8-position dual connectors
 
@@ -206,3 +206,43 @@ The input multiplexer board controls all data flowing into the computer.
 
 <img width="653" alt="Input Multiplexer Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/c1fa90bb-b4ab-498c-a886-acdfac3ac342">
 
+## CPU Board
+
+The CPU board contains the 8008 microprocessor and is the "brain" of the computer.
+
+* Don't install the 8008 until after doing the test outlined in the original instructions
+* 74xx ICs can be substituted with an LS variant (e.g. 74L04/7404 can be substituted with 74LS04)
+* Install two jumpers required by the board - better to install them early in the process
+* Split and splice a 40-pin connector to create a 41-pin connector
+* Split 40-position dual right-angle connectors to create 8-position dual connectors
+
+### Parts List
+
+| Part            | Spec          | Source    | Part #                   |
+| --------------- | ------------- | --------- | ------------------------ |
+| C1              | 33 pF         | Jameco    | 332217                   |
+| C2-C6           | 0.1 uF        | DigiKey   | 478-11712-ND             |
+| R1-R2           | 220 ohm       | Jameco    | 690700                   |
+| R3              | 560 ohm       | Jameco    | 690806                   |
+| R4              | 1.8K Ohm      | Jameco    | 690929                   |
+| R5-R8, R17      | 1K Ohm        | Jameco    | 690865                   |
+| R9-R16          | 22K Ohm       | Jameco    | 691180                   |
+| IC1, IC4        | 7400          | Jameco    | 48979                    |
+  IC6-IC7, IC9
+  IC13, IC17
+  IC19        
+| IC2-IC3, IC14   | 7476          | Jameco    | 48039                    |
+| IC5, IC11, IC16 | 7404          | Jameco    | 49040                    |
+  IC20, IC21
+| IC8, IC12       | 7474          | Jameco    | 50551                    |
+| IC22-IC23, IC25 | 74L04         | Jameco    | 46316                    |
+| IC10, IC18      | 7410          | Jameco    | 49189                    |
+| IC15            | 7420          | Jameco    | 50008                    |
+| IC24            | Intel 8008    | eBay      | N/A                      |
+| IC26            | 7442          | Jameco    | 50374                    |
+| XTAL 1          | 4 MHz crystal | eBay      | N/A                      |
+| 41POS CONN      | Male R-A      | Amazon    | B01461DQ6S               |
+
+### Image
+
+TODO
