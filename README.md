@@ -97,7 +97,14 @@ The LED Register Display board is used for displaying the address and contents o
 The output board is used for outputting data from the computer. It's a fairly simple board consisting of mostly ICs.
 
 * Split and splice a 40-pin connector to create a 41-pin connector
+* Install jumper wire and output ports jumpers
 * Split 40-position dual right-angle connectors to create 8-position dual connectors
+
+### Jumpers
+
+Install jumpers for output ports. The following is the default configuration. Additional output ports will need to be jumpered differently. Refer to original instructions for more information.
+
+<img width="300" alt="Output Board Jumpers" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/1f419c5a-f58a-47f8-bc96-b34f7444e964">
 
 ### Parts List
 
@@ -113,7 +120,7 @@ The output board is used for outputting data from the computer. It's a fairly si
 
 ### Image
 
-<img width="653" alt="Output Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/fb3a4e2b-db8f-4eed-837a-d1a25c6fb121">
+<img width="653" alt="Output Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/aecd6b36-c755-4408-ba32-7a9d2cb83943">
 
 ## Memory Board
 
