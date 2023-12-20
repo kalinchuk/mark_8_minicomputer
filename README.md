@@ -248,4 +248,4 @@ The CPU board contains the 8008 microprocessor and is the "brain" of the compute
 
 ### Image
 
-TODO
+<img width="653" alt="CPU Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/b3cf8cd2-aa3c-438a-bff9-9c254fb20b81">
