@@ -176,3 +176,32 @@ The address latch board latches addresses specified by the end-user which are th
 ### Image
 
 <img width="653" alt="Address Latch Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/1ed006fa-e405-4090-8672-74457bb6d690">
+
+## Input Multiplexer Board
+
+The input multiplexer board controls all data flowing into the computer.
+
+* C2 should be 100 uF (instead of 1 uF as the original document states)
+* The 8267 multiplexer was substituted for 8266 due to the inability of finding an 8267
+* Install two jumpers required by the board
+* Split and splice a 40-pin connector to create a 41-pin connector
+* Split 40-position dual right-angle connectors to create 8-position dual connectors
+
+### Parts List
+
+| Part           | Spec        | Source    | Part #                   |
+| -------------- | ----------- | --------- | ------------------------ |
+| C1, C3-C4      | 0.1 uF      | DigiKey   | 478-11712-ND             |
+| C2             | 100 uF      | DigiKey   | 1189-1300-ND             |
+| R1             | 1K Ohm      | Jameco    | 690865                   |
+| IC1-IC2        | 8263 MUX    | eBay      | N/A                      |
+| IC3            | 7400        | Jameco    | 48979                    |
+| IC4-IC5        | 8267 MUX    | eBay      | N/A                      |
+| IC6            | 7402        | Jameco    | 49015                    |
+| IC7            | 7442        | Jameco    | 50374                    |
+| 16POS CONN x 4 | 2x8 2.54mm  | Amazon    | B015K47OIQ               |
+| 41POS CONN     | Male R-A    | Amazon    | B01461DQ6S               |
+
+### Image
+
+TODO
