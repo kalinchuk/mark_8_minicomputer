@@ -43,7 +43,7 @@ Switching power supply unit that produces +5v and -12v: https://www.digikey.com/
 
 ### Power Conversion Board
 
-The following is the schematic for the power conversion board that converts -12v to -9v and passes through +5v. This board connects directly to the above power supply on the input side and to the Mark-8 backplane on the output side.
+The following is the schematic for the power conversion board that converts -12v to -9v and passes through +5v. This board connects directly to the above power supply on the input side and to the Mark-8 backplane on the output side. I have a few PCBs available for sale for $10+SH. Send me an email at artem9@gmail.com if you would like to purchase.
 
 <img width="653" alt="Power Conversion Board Schematic" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/556f7abd-6658-4ac2-aff0-98889fd8b4e7">
 
