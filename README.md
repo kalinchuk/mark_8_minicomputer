@@ -249,3 +249,67 @@ The CPU board contains the 8008 microprocessor and is the "brain" of the compute
 ### Image
 
 <img width="653" alt="CPU Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/b3cf8cd2-aa3c-438a-bff9-9c254fb20b81">
+
+## Switch Board
+
+The switch board was created based on the switch pinouts from the original document and a few supporting documents. The original set of boards did not contain a switch board. In order to properly assemble the switch PCB, a switch panel/board for the case will be required to space the LEDs.
+
+* Reference the [original Mark-8 assembly instructions](https://bytecollector.com/archive/mark_8/My_Mark-8_Info/Mark-8_Construction/RE_Mark-8_Const-NEW.pdf) for the switch pinouts
+* Reference the [Mark-8 connection info document](https://bytecollector.com/archive/mark_8/My_Mark-8_Info/Mark-8_Construction/Mark_8_connection_info.pdf) for switch connection information
+* The switch panel (to which the switch board mounts) has the dimensions of 10-1/2" x 4-3/4" and 1/8" thick.
+
+### Schematic and PCB
+
+The following are the schematic and PCB layout for the Mark-8 switch board. If interested, the [Gerber file](https://github.com/kalinchuk/mark_8_minicomputer/files/13846576/Gerber.3.zip) can also be downloaded.
+
+<img width="653" alt="Switch Board Schematic" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/797033e7-e30b-48fd-8582-35699c7eba69">
+<img width="653" alt="Switch Board PCB" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/c739b773-601e-4dcc-b1dd-1a490600c284">
+
+### Parts List
+
+| Part                 | Spec                          | Source    | Part #                   |
+| -------------------- | ----------------------------- | --------- | ------------------------ |
+| R1                   | 220 ohm                       | Jameco    | 690700                   |
+| R2                   | 470 ohm                       | Jameco    | 690785                   |
+| D1                   | 5mm LED (+5v)                 | Jameco    | 333973                   |
+| D2                   | 5mm LED (-9v)                 | Jameco    | 34825                    |
+| SW1                  | SPDT (125v)                   | DigiKey   | 679-2462-ND              |
+| SW2-SW9, SW14, SW17  | SPDT                          | DigiKey   | 679-2463-ND              |
+| SW10-SW13, SW15-SW16 | SPDT MOM                      | DigiKey   | 5232ZAB-ND               |
+| J1                   | 24 (2x12) POS HEADER (2.54mm) | DigiKey   | AHK24H-ND                |
+| J2                   | 4 POS HEADER (3.96mm)         | DigiKey   | 455-B4P-VH-ND            |
+
+### J1 Pinouts
+
+The following is the pinout for the J1 header. Each pin of the J1 header goes to a specific pin of the top connectors located on top of the Mark-8 boards (aside from some power connections). Use the [Mark-8 connection info document](https://bytecollector.com/archive/mark_8/My_Mark-8_Info/Mark-8_Construction/Mark_8_connection_info.pdf) as reference when routing each letter to a pin.
+
+| J1 Pin   | Mark-8 Pin |
+| -------- | ---------- |
+| 1        | K          |
+| 2        | GND        |
+| 3        | J          |
+| 4        | JAM        |
+| 5        | G          |
+| 6        | -9v        |
+| 7        | H          |
+| 8        | MPX 7      |
+| 9        | B          |
+| 10       | MPX 6      |
+| 11       | A          |
+| 12       | MPX 5      |
+| 13       | D          |
+| 14       | MPX 4      |
+| 15       | C          |
+| 16       | MPX 3      |
+| 17       | F          |
+| 18       | MPX 2      |
+| 19       | E          |
+| 20       | MPX 1      |
+| 21       | M          |
+| 22       | +5v        |
+| 23       | N          |
+| 24       | MPX 0      |
+
+### Image
+
+<img width="653" alt="Switch Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/7b2b464a-85dd-4a73-a8b1-0cd922c3f786">
