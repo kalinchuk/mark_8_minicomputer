@@ -256,7 +256,8 @@ The switch board was designed based on the switch pinouts from the original docu
 
 * Reference the [original Mark-8 assembly instructions](https://bytecollector.com/archive/mark_8/My_Mark-8_Info/Mark-8_Construction/RE_Mark-8_Const-NEW.pdf) for the switch pinouts
 * Reference the [Mark-8 connection info document](https://bytecollector.com/archive/mark_8/My_Mark-8_Info/Mark-8_Construction/Mark_8_connection_info.pdf) for switch connection information
-* The switch panel (to which the switch board mounts) has the dimensions of 10-1/2" x 4-3/4" and 1/8" thick.
+* The switch panel (to which the switch board mounts) has the dimensions of 10-1/2" x 4-3/4" and 1/8" thick
+* The PCB dimensions are 9-1/8" x 3-1/2"
 
 ### Schematic and PCB
 
