@@ -252,7 +252,7 @@ The CPU board contains the 8008 microprocessor and is the "brain" of the compute
 
 ## Switch Board
 
-The switch board was created based on the switch pinouts from the original document and a few supporting documents. The original set of boards did not contain a switch board. In order to properly assemble the switch PCB, a switch panel/board for the case will be required to space the LEDs.
+The switch board was designed based on the switch pinouts from the original document and several supporting documents. The original set of boards did not include a switch board. To properly assemble the switch PCB, a switch panel/board for the case will be needed to correctly space the LEDs.
 
 * Reference the [original Mark-8 assembly instructions](https://bytecollector.com/archive/mark_8/My_Mark-8_Info/Mark-8_Construction/RE_Mark-8_Const-NEW.pdf) for the switch pinouts
 * Reference the [Mark-8 connection info document](https://bytecollector.com/archive/mark_8/My_Mark-8_Info/Mark-8_Construction/Mark_8_connection_info.pdf) for switch connection information
