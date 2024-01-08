@@ -324,15 +324,19 @@ You will find drawings, parts lists and additional information regarding the cas
 ### Drawings
 
 The overall case layout ([PDF](https://github.com/kalinchuk/mark_8_minicomputer/files/13861999/CaseGeneral.pdf)):
+
 <img width="653" alt="Case Generic" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/ae3d60a8-ef38-4d75-9cf4-547920b42302">
 
 The rear panel ([PDF](https://github.com/kalinchuk/mark_8_minicomputer/files/13862011/RearPanel.pdf)):
+
 <img width="653" alt="Case Rear Panel" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/fdfa2d89-5a9e-481f-85ad-0b89772249a4">
 
 The rear panel template ([PDF](https://github.com/kalinchuk/mark_8_minicomputer/files/13862021/RearPanelTemplate.pdf)):
+
 <img width="653" alt="Case Rear Panel Template" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/2ea81848-828a-49b8-8c4d-4c7f2e8b4258">
 
 The top panel ([PDF](https://github.com/kalinchuk/mark_8_minicomputer/files/13862029/CaseTop.pdf)):
+
 <img width="653" alt="Case Top Panel" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/e71dad43-a272-432b-a667-fe926af688cc">
 
 ### Parts List
