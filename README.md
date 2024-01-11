@@ -331,7 +331,7 @@ The rear panel ([PDF](https://github.com/kalinchuk/mark_8_minicomputer/files/138
 
 <img width="653" alt="Case Rear Panel" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/fdfa2d89-5a9e-481f-85ad-0b89772249a4">
 
-The rear panel template ([PDF](https://github.com/kalinchuk/mark_8_minicomputer/files/13862021/RearPanelTemplate.pdf)):
+The rear panel template ([PDF](https://github.com/kalinchuk/mark_8_minicomputer/files/13862021/RearPanelTemplate.pdf) - note that the X's annotate parts to be removed and not the center):
 
 <img width="653" alt="Case Rear Panel Template" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/2ea81848-828a-49b8-8c4d-4c7f2e8b4258">
 
