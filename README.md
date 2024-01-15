@@ -347,9 +347,11 @@ The top panel ([PDF](https://github.com/kalinchuk/mark_8_minicomputer/files/1386
 | LED Holders (2)      | 5mm LED, for switch panel     | Amazon    | B08FBVRL8V               |
 | Fan                  | 80mmx80mm                     | DigiKey   | F8025E05B-FHR-ND         |
 | Fan Guard            | 80mm square                   | DigiKey   | Q1011-ND                 |
-| Cable Gland          | 1/2" - for power cable        | Amazon    | B08R86BHBC               |
+| Cable Gland          | 1/2" - for power cable        | Amazon    | B08JMCVJRV               |
 | Fuse Holder          | 1/2" diameter, 5mmx20mm fuse  | DigiKey   | 486-2061-ND              |
 | Fuse                 | 4A, 125V, 5mmx20mm            | DigiKey   | 507-1268-ND              |
 | I/O Panel (2)        | 2-DB25 Sub Panel              | DigiKey   | 5073-USP234B-ND          |
 | Bolts                | M3-14mm                       | Hardware  | N/A                      |
+| Panel Nails          | N/A                           | Hardware  | N/A                      |
+| Rubber Feet          | N/A                           | Amazon    | B07MBN4WSR               |
 
