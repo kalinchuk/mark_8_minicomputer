@@ -189,7 +189,7 @@ The address latch board latches addresses specified by the end-user which are th
 The input multiplexer board controls all data flowing into the computer.
 
 * C2 should be 100 uF (instead of 1 uF as the original document states)
-* The 8267 multiplexer was substituted for 8266 due to the inability of finding an 8267
+* Do not use an 8266 instead of an 8267 - the computer will not operate
 * Install two jumpers required by the board - better to install them early in the process
 * Split and splice a 40-pin connector to create a 41-pin connector
 * Split 40-position dual right-angle connectors to create 8-position dual connectors
@@ -296,9 +296,9 @@ The following is the pinout for the J1 header. Each pin of the J1 header goes to
 | 6        | -9v        |
 | 7        | H          |
 | 8        | MPX 7      |
-| 9        | B          |
+| 9        | A          |
 | 10       | MPX 6      |
-| 11       | A          |
+| 11       | B          |
 | 12       | MPX 5      |
 | 13       | D          |
 | 14       | MPX 4      |
