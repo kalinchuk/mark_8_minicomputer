@@ -132,7 +132,7 @@ The memory board accepts 32-1101 SRAM ICs but requires a minimum of 8 of them. M
 
 ### Jumpers
 
-For the first and only memory board, install all of the resisters, A jumpers, 0 jumper and block codes as illustrated in the following image. Refer to original instructions if adding additional memory boards.
+For the first and only memory board, install all of the resistors, A jumpers, 0 jumper and block codes as illustrated in the following image. Refer to original instructions if adding additional memory boards.
 
 <img width="300" alt="Memory Board Jumpers" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/3cdcb5ae-1115-4da0-9939-27507b1c660b">
 
@@ -159,6 +159,7 @@ For the first and only memory board, install all of the resisters, A jumpers, 0 
 The address latch board latches addresses specified by the end-user which are then relayed to the memory board.
 
 * The board that we're using here seems to have a mistake in the top connectors placement so, when installing the top connectors, pull them out slightly so that mating connectors could fit
+* Install pull-up resistors on pin 4 of IC8-IC11 since the count down pin must be held high while the up pin is pulsed (ref: https://www.ti.com/lit/ds/symlink/sn54ls193-sp.pdf)
 * Split and splice a 40-pin connector to create a 41-pin connector
 * Split 40-position dual right-angle connectors to create a 8-position, 6-position & 5-position dual connectors
 * Install two jumpers required by the board - better to install them early in the process
@@ -183,6 +184,10 @@ The address latch board latches addresses specified by the end-user which are th
 ### Image
 
 <img width="653" alt="Address Latch Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/1ed006fa-e405-4090-8672-74457bb6d690">
+
+Pull up resistors installed on pin 4 of IC8-IC11:
+
+<img width="653" alt="Address Latch Board Pull-Up Resistors" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/99d8e1ce-ba6f-4dbd-9f21-165a7fb97349">
 
 ## Input Multiplexer Board
 
