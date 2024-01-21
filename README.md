@@ -346,10 +346,10 @@ The top panel ([PDF](https://github.com/kalinchuk/mark_8_minicomputer/files/1386
 
 ### Labels
 
-Control panel label:
+Control panel label (right-click and save):
 <img width="653" alt="Front Panel Label" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/7e36f4e1-2b84-41dc-9189-004bebbda20d">
 
-Front panel label:
+Front panel label (right-click and save):
 <img width="653" alt="Control Panel Label" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/0edbd6c9-81d2-4042-bab0-ffaf60ed7f50">
 
 ### Parts List
