@@ -344,6 +344,14 @@ The top panel ([PDF](https://github.com/kalinchuk/mark_8_minicomputer/files/1386
 
 <img width="653" alt="Case Top Panel" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/e71dad43-a272-432b-a667-fe926af688cc">
 
+### Labels
+
+Control panel label:
+<img width="653" alt="Front Panel Label" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/7e36f4e1-2b84-41dc-9189-004bebbda20d">
+
+Front panel label:
+<img width="653" alt="Control Panel Label" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/0edbd6c9-81d2-4042-bab0-ffaf60ed7f50">
+
 ### Parts List
 
 | Part                 | Spec                          | Source    | Part #                   |
@@ -356,7 +364,24 @@ The top panel ([PDF](https://github.com/kalinchuk/mark_8_minicomputer/files/1386
 | Fuse Holder          | 1/2" diameter, 5mmx20mm fuse  | DigiKey   | 486-2061-ND              |
 | Fuse                 | 4A, 125V, 5mmx20mm            | DigiKey   | 507-1268-ND              |
 | I/O Panel (2)        | 2-DB25 Sub Panel              | DigiKey   | 5073-USP234B-ND          |
-| Bolts                | M3-14mm                       | Hardware  | N/A                      |
+| Bolts                | M3-14mm, M3-20mm, M4-20mm     | Hardware  | N/A                      |
 | Panel Nails          | N/A                           | Hardware  | N/A                      |
 | Rubber Feet          | N/A                           | Amazon    | B07MBN4WSR               |
+| 28 AWG Wire          | Switch Board Harness          | Amazon    | N/A                      |
+| 14-16 AWG Wire       | High Voltage Lines            | Amazon    | N/A                      |
+| Plexiglass Box       | 9in L x 9in W x 8in H         | shoppopdisplays.com | 5-Sided Acrylic Box |
+| Metal Plate          | 10in x 6in                    | Hardware  | N/A                      |
+| 40-POS Connector     | Switch Board Connection (2.54mm) | DigiKey | AKC24B-ND               |
+| 3-POS Connector      | Fan Power                     | DigiKey   | 455-3982-ND              |
+| 4-POS Connector      | Power Switch (3.96mm)         | DigiKey   | 455-3990-ND              |
+| 3-Pole Terminal Block | 120v; 14-16 AWG              | Amazon    | N/A                      |
 
+### Image
+
+<img width="653" alt="Case" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/6f7a28c0-d5d9-46db-9864-4df54c00940c">
+
+## Final Product
+
+<img width="653" alt="Mark-8 Minicomputer 1" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/240f0fa7-5fd0-4b6e-9b0b-c94bc1831012">
+<img width="653" alt="Mark-8 Minicomputer 2" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/48f14089-d7e3-47fc-8fe6-770a23f54021">
+<img width="653" alt="Mark-8 Minicomputer 3" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/e3b74a2e-efe9-4e55-a587-a9e0f04a3128">
