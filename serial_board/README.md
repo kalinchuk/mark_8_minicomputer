@@ -46,7 +46,7 @@ All connectors have a 2.54mm pitch.
 
 ### Other parts
 
-Four 16 position connectors and cables will be required to connect the serial board to the Mark-8 minicomputer input and outpot ports. A [serial cable & connector (DB25 to IDC26)](https://amzn.to/4cslUFx) can be used for connecting serial devices.
+Four 16 position connectors and cables will be required to connect the serial board to the Mark-8 minicomputer input and output ports. A [serial cable & connector (DB25 to IDC26)](https://amzn.to/4cslUFx) can be used for connecting serial devices.
 
 ## Configuration
 
@@ -56,7 +56,7 @@ The +12v and -12v inputs support voltages between +15v and -15v.
 
 ## Testing
 
-After assembly, you can verify the operation of the board by running the RELAY.asm program listed below. It's a simple program that listens for input on the serial port and reponds back with what it receives. This will verify the input and output operations of the board.
+After assembly, you can verify the operation of the board by running the `RELAY.asm` program listed below. It's a simple program that listens for input on the serial port and responds back with what it receives. This will verify the input and output operations of the board.
 
 ```
 RDA   EQU   01H
@@ -119,4 +119,4 @@ The octal code for the program is as follows:
 * The board has a single serial port due to the Mark-8 only having two input ports. Since two input ports are required (one for status and one for data) for serial communication, only a single serial port can be used at a time. This can be improved by modifying the original Input Ports board for the Mark-8 minicomputer to allow input from more than two ports.
 * The board has explicit connections for both input ports and output ports. While it would be ideal to utilize the data lines on the bus, it cannot be done with the existing Input Ports board because of the way it's designed. The output ports could utilize the bus data lines but, for consistency, the serial board was designed to accept two input and two output ports.
 * The board uses input ports 0 and 1 and output ports 1 and 2 (output port 0 is the LED register display). This is not configurable (in revision 1, at least). Ideally, it would be best to have the ports configurable so that the Mark-8 could utilize whichever ports the serial board is configured to work with. Revision 1 was hard-wired since the original Mark-8 can only use two input ports so there was no good reason to make it configurable. If the original Input Ports board is modified to accept more than two ports, the serial board could be made configurable but, even then, the maximum number of input and output ports would be eight (or four serial ports).
-* The board has inputs for +12v and -12v. It was done this way since the original Mark-8 did not support those voltages (it used +5v and -9v). While it could be possible to utilize +5v and -5v, many older equipment do not support that. Then again, any voltage (within -15v and +15v) can be supplied to those lines. Since the power supply that I used for the Mark-8 had a +12v and -12v, I used those directly.
+* The board has inputs for +12v and -12v. It was done this way since the original Mark-8 did not support those voltages and did not have them on the bus (it used +5v and -9v). While it could be possible to utilize +5v and -5v, many older equipment do not support that. Then again, any voltage (within -15v and +15v) can be supplied to those lines. Since the power supply that I used for the Mark-8 had a +12v and -12v, I used those directly.
