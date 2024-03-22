@@ -1,14 +1,14 @@
 # Mark-8 Minicomputer Serial Interface Board
 
-This board enables the Mark-8 minicomputer to communicate via a serial interface. The board has a single serial port and requires two input and two output ports. You can purchase an (unstuffed board)[https://www.kalinchuk.com/product-page/mark-8-minicomputer-serial-board] or a (kit with all the required parts)[https://www.kalinchuk.com/product-page/mark-8-minicomputer-serial-board-kit] at (kalinchuk.com)[https://kalinchuk.com].
+This board enables the Mark-8 minicomputer to communicate via a serial interface. The board has a single serial port and requires two input and two output ports. You can purchase an [unstuffed board](https://www.kalinchuk.com/product-page/mark-8-minicomputer-serial-board) or a [kit with all the required parts](https://www.kalinchuk.com/product-page/mark-8-minicomputer-serial-board-kit) at [kalinchuk.com](https://kalinchuk.com).
 
-This board layout and connections were made to support the boards that were created by (Budgetronics)[https://www.budgetronics.eu/en/building-kits/mark-8-minicomputer-pcb-set-7-pieces/a-25789-20]. A new version of this board will be available for original boards in the future.
+This board layout and connections were made to support the boards that were created by [Budgetronics](https://www.budgetronics.eu/en/building-kits/mark-8-minicomputer-pcb-set-7-pieces/a-25789-20). A new version of this board will be available for original boards in the future.
 
 [IMAGE]
 
 ## Assembly Instructions
 
-Refer to the (YouTube video)[] for assembly instructions.
+Refer to the [YouTube video]() for assembly instructions.
 
 ## Schematics
 
@@ -45,7 +45,7 @@ All connectors have a 2.54mm pitch.
 
 ### Other parts
 
-Four 16 position connectors and cables will be required to connect the serial board to the Mark-8 minicomputer input and outpot ports. A (serial cable & connector (DB25 to IDC26))[https://amzn.to/4cslUFx] can be used for connecting serial devices.
+Four 16 position connectors and cables will be required to connect the serial board to the Mark-8 minicomputer input and outpot ports. A [serial cable & connector (DB25 to IDC26)](https://amzn.to/4cslUFx) can be used for connecting serial devices.
 
 ## Configuration
 
