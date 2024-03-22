@@ -13,7 +13,7 @@ INPUT:
         LBA               ;LOAD STATUS TO B
         LDAI    RDA
         NDB               ;CHECK IF SERIAL PORT HAS DATA
-        JTZ     INPUT    ;IF NO DATA, KEEP ON CHECKING
+        JTZ     INPUT     ;IF NO DATA, KEEP ON CHECKING
         IN1               ;IF DATA IS PRESENT, READ THE DATA
         LCA               ;MOVE IT TO C
 
