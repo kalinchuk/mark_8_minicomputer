@@ -4,7 +4,7 @@ This board enables the Mark-8 minicomputer to communicate via a serial interface
 
 This board layout and connections were made to support the boards that were created by [Budgetronics](https://www.budgetronics.eu/en/building-kits/mark-8-minicomputer-pcb-set-7-pieces/a-25789-20). A new version of this board will be available for original boards in the future.
 
-[IMAGE]
+<img height="500" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/09c7380c-1829-4fc0-b21c-0f34709ee598"/>
 
 ## Assembly Instructions
 
