@@ -12,7 +12,9 @@ Refer to the [YouTube video]() for assembly instructions.
 
 ## Schematics
 
-[SCHEMATICS]
+You can find the schematics PDF [here](https://github.com/kalinchuk/mark_8_minicomputer/files/14727726/Mark8SerialBoard.pdf).
+
+Since the board does not have a silkscreen, the [parts layout](https://github.com/kalinchuk/mark_8_minicomputer/files/14727736/Layout.pdf) can be used to determine the location of each part when assembling.
 
 ## Parts List
 
