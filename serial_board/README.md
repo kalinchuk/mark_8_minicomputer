@@ -19,6 +19,7 @@ Refer to the [YouTube video]() for assembly instructions.
 All connectors have a 2.54mm pitch.
 
 | Designator        | Quantity | Designation         |
+|-------------------|----------|---------------------|
 | C1                | 1        | 120pF ceramic       |
 | C2,C4-C23         | 21       | 0.1uF ceramic       |
 | C3                | 1        | 100uF electrolytic  |
