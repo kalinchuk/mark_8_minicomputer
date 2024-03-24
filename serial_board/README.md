@@ -52,7 +52,7 @@ Four 16 position connectors and cables will be required to connect the serial bo
 
 ## Configuration
 
-The serial board does not require much configuration. The only thing that can be configured on revision 1 is the baud rate. *IMPORTANT: Only a single baud rate can be enabled at a time*.
+The serial board does not require much configuration. The only thing that can be configured on revision 1 is the baud rate. **IMPORTANT: Only a single baud rate can be enabled at a time**.
 
 The +12v and -12v inputs support voltages between +15v and -15v.
 
