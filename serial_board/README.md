@@ -8,7 +8,7 @@ This board layout and connections were made to support the boards that were crea
 
 ## Assembly Instructions
 
-Refer to the [YouTube video]() for assembly instructions.
+Refer to the [YouTube video](https://youtu.be/p0c7LdEznt8) for assembly instructions.
 
 ## Schematics
 
