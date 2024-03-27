@@ -1,5 +1,4 @@
-;DISPLAYS ASCII CHARACTERS ON THE SCREEN,
-;ONE AT A TIME, STARTING FROM A
+;DISPLAYS ASCII CHARACTERS ON THE SCREEN, ONE AT A TIME
 
 TBE   EQU   02H
 
@@ -11,7 +10,7 @@ TBE   EQU   02H
 
 ; LOAD CHARACTER
 LOAD:
-        LDAI    'A'       ;006 101
+        LDAI    ' '       ;006 040
         LCA               ;320
 
 ; OUTPUT ROUTINE
@@ -31,4 +30,10 @@ OUTPUT:
 DELAY:
         DCB               ;011
         JFZ     DELAY     ;110 027 000
-        JMP     OUTPUT    ;104 011 000
+
+;HALT ROUTINE
+HALT:
+        LDAI    '~'       ;006 176
+        NDC               ;242
+        JTZ     OUTPUT    ;150 011 000
+        HLT               ;777
