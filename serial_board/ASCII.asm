@@ -34,6 +34,6 @@ DELAY:
 ;HALT ROUTINE
 HALT:
         LDAI    '~'       ;006 176
-        NDC               ;242
-        JTZ     OUTPUT    ;150 011 000
+        CPC               ;272
+        JFZ     OUTPUT    ;110 011 000
         HLT               ;777
