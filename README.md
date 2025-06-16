@@ -43,7 +43,7 @@ Switching power supply unit that produces +5v and -12v: https://www.digikey.com/
 
 ### Power Conversion Board
 
-The following is the schematic for the power conversion board that converts -12v to -9v and passes through +5v. This board connects directly to the above power supply on the input side and to the Mark-8 backplane on the output side. I have a few PCBs available for sale for $10+SH. Send me an email at artem9@gmail.com if you would like to purchase.
+The following is the schematic for the power conversion board that converts -12v to -9v and passes through +5v. This board connects directly to the above power supply on the input side and to the Mark-8 backplane on the output side. I have a few PCBs available for sale at [www.kalinchuk.com](www.kalinchuk.com).
 
 <img width="653" alt="Power Conversion Board Schematic" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/556f7abd-6658-4ac2-aff0-98889fd8b4e7">
 
@@ -259,7 +259,7 @@ The CPU board contains the 8008 microprocessor and is the "brain" of the compute
 
 The switch board was designed based on the switch pinouts from the original document and several supporting documents. The original set of boards did not include a switch board. To properly assemble the switch PCB, a switch panel/board for the case will be needed to correctly space the LEDs.
 
-I have a few PCBs available for sale for $15+SH. Send me an email at artem9@gmail.com if you would like to purchase.
+I have a few PCBs available for sale at [www.kalinchuk.com](www.kalinchuk.com).
 
 * Reference the [original Mark-8 assembly instructions](https://bytecollector.com/archive/mark_8/My_Mark-8_Info/Mark-8_Construction/RE_Mark-8_Const-NEW.pdf) for the switch pinouts
 * Reference the [Mark-8 connection info document](https://bytecollector.com/archive/mark_8/My_Mark-8_Info/Mark-8_Construction/Mark_8_connection_info.pdf) for switch connection information
@@ -321,6 +321,18 @@ The following is the pinout for the J1 header. Each pin of the J1 header goes to
 ### Image
 
 <img width="653" alt="Switch Board" src="https://github.com/kalinchuk/mark_8_minicomputer/assets/1035984/7b2b464a-85dd-4a73-a8b1-0cd922c3f786">
+
+## Serial Board
+
+I designed a serial board for the Mark-8 minicomputer clone. You can find information about it [here](serial_board/README.md). I have these boards available for sale at [www.kalinchuk.com](www.kalinchuk.com).
+
+## RAM/ROM Board
+
+Len Bayles design a RAM/ROM board for the Mark-8 but it was designed for the 3.96mm backplane. Leor Weinstein took Len's PCB and redesigned it for the 2.96mm backplane so that it would fit this clone computer. You can find the KiCAD files for that [here](ram_rom). All credit goes to Len for designing the board and Leor for converting it to the clone version.
+
+## Video Board
+
+Len Bayles design a Video board for the Mark-8 but it was designed for the 3.96mm backplane. Leor Weinstein took Len's PCB and redesigned it for the 2.96mm backplane so that it would fit this clone computer. You can find the KiCAD files for that [here](ram_rom). All credit goes to Len for designing the board and Leor for converting it to the clone version.
 
 ## Case
 
