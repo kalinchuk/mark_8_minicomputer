@@ -332,7 +332,7 @@ Len Bayles design a RAM/ROM board for the Mark-8 but it was designed for the 3.9
 
 ## Video Board
 
-Len Bayles design a Video board for the Mark-8 but it was designed for the 3.96mm backplane. Leor Weinstein took Len's PCB and redesigned it for the 2.96mm backplane so that it would fit this clone computer. You can find the KiCAD files for that [here](ram_rom). All credit goes to Len for designing the board and Leor for converting it to the clone version.
+Len Bayles design a Video board for the Mark-8 but it was designed for the 3.96mm backplane. Leor Weinstein took Len's PCB and redesigned it for the 2.96mm backplane so that it would fit this clone computer. You can find the KiCAD files for that [here](video). All credit goes to Len for designing the board and Leor for converting it to the clone version.
 
 ## Case
 
