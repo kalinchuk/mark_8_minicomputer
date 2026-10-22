@@ -2,7 +2,7 @@
 
 This board enables the Mark-8 minicomputer to communicate via a serial interface. The board has a single serial port and requires two input and two output ports. You can purchase an [unstuffed board](https://www.kalinchuk.com/product-page/mark-8-minicomputer-serial-board) or a [kit with all the required parts](https://www.kalinchuk.com/product-page/mark-8-minicomputer-serial-board-kit) at [kalinchuk.com](https://kalinchuk.com).
 
-*Please note: This is designed for the CLONE version of the Mark-8. If you are looking for the REPRODUCTION version (one that fits the original footprint), that one is COMING SOON.*
+**Please note: This is designed for the CLONE version of the Mark-8. If you are looking for the REPRODUCTION version (one that fits the original footprint), that one is COMING SOON.**
 
 This board layout and connections were made to support the boards that were created by [Budgetronics](https://www.budgetronics.eu/en/building-kits/mark-8-minicomputer-pcb-set-7-pieces/a-25789-20). A new version of this board will be available for original boards in the future.
 
